@@ -8,11 +8,13 @@ fun main() {
     // We are calling the CONSTRUCTOR to create them.
 
     val binnie = Cat("Binnie", 10, 10)
-    val clyde = Cat("Clyde", 5, 5)
+    val clyde = Cat("Clyde", 5, 6)
 
     // Calling a METHOD on each object
     binnie.walk()
+    binnie.eat()
     clyde.walk()
+    clyde.eat()
 
     /* println(objectName)
         automatically calls the toString() method
